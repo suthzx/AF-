@@ -5,8 +5,8 @@
 
 声明：本软件为学术交流所用，运行密码为ICQMSicqms，请勿以任何形式用于商业用途，所有学术用户可以使用，欢迎加入AF，提出修改意见和一起完善。  
 
-①本软件写成简单实用的exe程序，不需要其他支持环境，可在Win系统上直接使用。  
-②本软件为提取简单化学式特征使用，暂不支持-----”化学式中有括号，水合物符号，电子价等符号参与的化学式“若有特殊需求可联系作者，联系方式见控制台。  
+①本软件写成简单实用的exe程序，可在Win系统上直接使用。  
+②本软件为提取简单化学式特征使用，暂不支持-”化学式中有括号，水合物符号，电子价等符号参与的化学式“若有特殊需求可联系作者，联系方式见控制台。  
 ③特征维度的限制为1000维度，维度是自己定制的(维度跟随你的特征文件)，10000是每行最多的字符，可以使用我们提供的元素物理基本性质的特征文件，也可以自定义自己添加想要使用的特征。  
 ④元素物理基本性质的特征文件，以magpie.csv为例(“https://www.nature.com/articles/npjcompumats201628） ”在这个csv我们采集了magpie中给出的元素基本物理量，具体特征见magpe原文）,请严格参照magpie.csv的文件输入格式，并在进行填充之前更正csv文件的名字为：Fillfeature.csv。  
 ⑤确保Fillfeature.csv(特征文件)和data.csv(要求里面只有化学式这一列，无其他多余字符)与exe软件处在同一个文件夹中。  
@@ -29,7 +29,7 @@ Disclaimer: This software is used for academic communication, and the running pa
 ①This software is written as a simple and practical exe program, which does not need other supporting environment, but can be used directly on the Win system.  
 ②The software is used to extract the characteristics of simple chemical formula, temporarily does not support -- "chemical formula with brackets, hydrate symbols, symbols such as electron valence to participate in the chemical formula" if you have special needs can contact the author, contact information see the console.  
 ③The limit of feature dimension is 1000, the dimension is customized (the dimension follows your feature file), 10000 is the most characters per line, you can use the feature file of the basic nature of element physics we provide, you can also customize to add the features you want to use.    
-④elements characteristics of the basic characteristics of physical files to pay-per-tweet. CSV, for example (mapie references "https://www.nature.com/articles/npjcompumats201628) in the CSV" we collected the elements of the basic physical quantities given in the pay-per-tweet, specific characteristics of the original magpe), please strictly follow pay-per-tweet. CSV file input format, and corrected before populate CSV file name is: Fillfeature. CSV.  
+④elements characteristics of the basic characteristics of physical files to pay-per-tweet. CSV, for example ("https://www.nature.com/articles/npjcompumats201628) in the CSV" we collected the elements of the basic physical quantities given in the pay-per-tweet, specific characteristics of the original magpe), please strictly follow pay-per-tweet. CSV file input format, and corrected before populate CSV file name is: Fillfeature. CSV.  
 ⑤Ensure fillfeature.csv (feature file) and data.CSV (require only the column of chemical formula and no other redundant characters) in the same folder as EXE software.  
 ⑥Run the software, input ICQMSicqms, get out. CSV file, namely extraction of chemical formula characteristics.  
 ⑦Copy the input case in example, copy EXe into the folder to run, and get the out.csv file.  
