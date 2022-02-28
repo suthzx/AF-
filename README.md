@@ -28,16 +28,16 @@
 A custom - filled chemical formula characteristics of the real-time software
 Instructions for use:
 Disclaimer: This software is used for academic communication, and the running password is ICQMSicqms. It is not allowed to be used for commercial purposes in any form. All academic users have the right to use it.
-This software is written as a simple and practical EXE program, which does not need other supporting environment, but can be used directly on the Win system.
-(2) The software is used to extract the characteristics of simple chemical formula, temporarily does not support -- "chemical formula with brackets, hydrate symbols, symbols such as electron valence to participate in the chemical formula" if you have special needs can contact the author, contact information see the console.
-(3) The limit of feature dimension is 1000, the dimension is customized (the dimension follows your feature file), 10000 is the most characters per line, you can use the feature file of the basic nature of element physics we provide, you can also customize to add the features you want to use.
-(4) elements characteristics of the basic characteristics of physical files to pay-per-tweet. CSV, for example (mapie references "https://www.nature.com/articles/npjcompumats201628) in the CSV" we collected the elements of the basic physical quantities given in the pay-per-tweet, specific characteristics of the original magpe), please strictly follow pay-per-tweet. CSV file input format, and corrected before populate CSV file name is: Fillfeature. CSV.
-(5)Ensure fillfeature.csv (feature file) and data.CSV (require only the column of chemical formula and no other redundant characters) in the same folder as EXE software.
-(6)Run the software, input ICQMSicqms, get out. CSV file, namely extraction of chemical formula characteristics.
-(7)Copy the input case in example, copy EXe into the folder to run, and get the out.csv file.
-(8)It is noted that when Fillfeature appears in data.CSV file. CSV features cannot be extracted, we use the common method of 0 to fill, when abnormal data such as the denominator is 0, the feature is calculated as -1.
-(9) Pet-feature Files feature padding please use Numbers, if there are characters, etc., please use Numbers for self-classification first.
+①This software is written as a simple and practical exe program, which does not need other supporting environment, but can be used directly on the Win system.  
+② The software is used to extract the characteristics of simple chemical formula, temporarily does not support -- "chemical formula with brackets, hydrate symbols, symbols such as electron valence to participate in the chemical formula" if you have special needs can contact the author, contact information see the console.  
+③ The limit of feature dimension is 1000, the dimension is customized (the dimension follows your feature file), 10000 is the most characters per line, you can use the feature file of the basic nature of element physics we provide, you can also customize to add the features you want to use.    
+④ elements characteristics of the basic characteristics of physical files to pay-per-tweet. CSV, for example (mapie references "https://www.nature.com/articles/npjcompumats201628) in the CSV" we collected the elements of the basic physical quantities given in the pay-per-tweet, specific characteristics of the original magpe), please strictly follow pay-per-tweet. CSV file input format, and corrected before populate CSV file name is: Fillfeature. CSV.  
+⑤Ensure fillfeature.csv (feature file) and data.CSV (require only the column of chemical formula and no other redundant characters) in the same folder as EXE software.  
+⑥Run the software, input ICQMSicqms, get out. CSV file, namely extraction of chemical formula characteristics.  
+⑦Copy the input case in example, copy EXe into the folder to run, and get the out.csv file.  
+⑧It is noted that when Fillfeature appears in data.CSV file. CSV features cannot be extracted, we use the common method of 0 to fill, when abnormal data such as the denominator is 0, the feature is calculated as -1.  
+⑨Pet-feature Files feature padding please use Numbers, if there are characters, etc., please use Numbers for self-classification first.
 The S version and its versions are applicable to feature extraction without structural information, T1.0 version is applicable to perovskite ABX3 system, and T2.0 version is applicable to any structural feature extraction with structural information (such as POSCAR used in VASP software).
 Regarding Fillfeature.csv, these CSV files are extracted from its named software package, thanks for their dedication.
-When using custom Fillfeature.csv, please be sure to strictly follow the magpie.CSV format. Symbols other than Numbers are not allowed to appear in custom feature files, such as s, P, D electron orbit and other features.
-Welcome to contact us to improve the features available in ele warehouse. Contact us by email. See the software console for email address.
+When using custom Fillfeature.csv, please be sure to strictly follow the magpie.CSV format. Symbols other than Numbers are not allowed to appear in custom feature files, such as s, P, D electron orbit and other features.  
+Welcome to contact us to improve the features available in ele warehouse. Contact us by email. See the software console for email address.  
