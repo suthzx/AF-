@@ -1,5 +1,6 @@
-# AF-原子级特征提取软件使用说明
-原子级特征提取软件  
+# AF-原子级特征提取软件
+# Atomic Scalar Features Tools --A custom filled chemical formula characteristics of the real-time software
+
 
 声明：本软件为学术交流所用，运行密码为ICQMSicqms，请勿以任何形式用于商业用途，所有学术用户可以使用，欢迎加入AF，提出修改意见和一起完善。  
 
@@ -21,7 +22,7 @@
 
 
 
-A custom - filled chemical formula characteristics of the real-time software
+
 Instructions for use:
 Disclaimer: This software is used for academic communication, and the running password is ICQMSicqms. It is not allowed to be used for commercial purposes in any form. All academic users have the right to use it.  
 ①This software is written as a simple and practical exe program, which does not need other supporting environment, but can be used directly on the Win system.  
