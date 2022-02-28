@@ -1,6 +1,6 @@
 # AF-原子级特征提取软件
-# Atomic Scalar Features Tools 
---A custom filled chemical formula characteristics of the real-time software
+# Atomic Scalar Features Tools   
+  --A custom filled chemical formula characteristics of the real-time software
 
 
 声明：本软件为学术交流所用，运行密码为ICQMSicqms，请勿以任何形式用于商业用途，所有学术用户可以使用，欢迎加入AF，提出修改意见和一起完善。  
@@ -8,7 +8,7 @@
 ①本软件写成简单实用的exe程序，不需要其他支持环境，可在Win系统上直接使用。  
 ②本软件为提取简单化学式特征使用，暂不支持-----”化学式中有括号，水合物符号，电子价等符号参与的化学式“若有特殊需求可联系作者，联系方式见控制台。  
 ③特征维度的限制为1000维度，维度是自己定制的(维度跟随你的特征文件)，10000是每行最多的字符，可以使用我们提供的元素物理基本性质的特征文件，也可以自定义自己添加想要使用的特征。  
-④元素物理基本性质的特征文件，以magpie.csv为例(mapie的参考文献“https://www.nature.com/articles/npjcompumats201628） ”在这个csv我们采集了magpie中给出的元素基本物理量，具体特征见magpe原文）,请严格参照magpie.csv的文件输入格式，并在进行填充之前更正csv文件的名字为：Fillfeature.csv。  
+④元素物理基本性质的特征文件，以magpie.csv为例(“https://www.nature.com/articles/npjcompumats201628） ”在这个csv我们采集了magpie中给出的元素基本物理量，具体特征见magpe原文）,请严格参照magpie.csv的文件输入格式，并在进行填充之前更正csv文件的名字为：Fillfeature.csv。  
 ⑤确保Fillfeature.csv(特征文件)和data.csv(要求里面只有化学式这一列，无其他多余字符)与exe软件处在同一个文件夹中。  
 ⑥运行软件，输入ICQMSicqms，得到out.csv文件，即提取化学式特征完成。  
 ⑦仿照example中有输入案例，将exe复制入文件夹运行，得到out.csv文件。  
